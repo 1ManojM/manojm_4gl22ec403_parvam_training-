@@ -1,0 +1,62 @@
+nav{
+    background-color: rgb(138, 158, 92);
+    border: 1px solid black;
+  
+}
+.menubar{
+    display: flex;
+    list-style: none;
+    justify-content: wrap;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+.a{
+    text-decoration: none;
+}
+.menu-items{
+    padding: 10px;
+    flex-grow: 1;
+}
+.logo{
+    flex-grow: 2;
+}
+a:hover{
+    color: violet;
+    font-size: 20px;
+}
+section{
+    padding: 10px;
+    margin: 10px;
+    background-color: purple;
+    border-radius: 5px;
+}
+h1{
+    background-color: black;
+    color: red;
+    font-style: italic;
+    font-size: 50px;
+    text-align: center;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+}
+figcaption{
+    font-style: italic;
+    font-size: 10px;
+    color: blue;
+}
+.form{
+    color: rgb(0, 0, 0);
+    background-color: rgb(177, 72, 154);
+    background-origin: padding-box;
+}
+.first{
+    align-items: center;
+    justify-content: center;
+}
