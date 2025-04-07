@@ -1,0 +1,52 @@
+{% extends 'teacher_crud/menu.html' %}
+
+{% block content %}
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Age</th>
+            <th scope="col">email-id</th>
+            <th scope="col">phone number</th>
+            <th scope="col">qualification</th>
+            <th scope="col">subject</th>
+            <th scope="col">experience</th>
+            <th scope="col">action</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td>Manoj</td>
+            <td>18</td>
+            <td>manoj@test.com</td>
+            <td>123456789</td>
+            <td>engineering</td>
+            <td>django full-stack</td>
+            <td>0</td>
+            <td class="d-flex justify-content-center gap-3">
+                <a class="btn btn-sm btn-primary" href="{% url 'view-teacher' %}">View</a>
+                <a class="btn btn-sm btn-warning">Edit</a>
+                <a class="btn btn-sm btn-danger"  href="{% url 'delete-teacher' %}">Delete</a>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">1</th>
+            <td>Manoj</td>
+            <td>20</td>
+            <td>manoj@test.com</td>
+            <td>123456789</td>
+            <td>BSC</td>
+            <td>java full-stack</td>
+            <td>0</td>
+            <td class="d-flex justify-content-center gap-3">
+                <a class="btn btn-sm btn-primary" href="{% url 'view-teacher' %}">View</a>
+                <a class="btn btn-sm btn-warning">Edit</a>
+                <a class="btn btn-sm btn-danger" href="{% url 'delete-teacher' %}">Delete</a>
+            </td>
+        </tr>
+
+    </tbody>
+</table>
+{% endblock %}
